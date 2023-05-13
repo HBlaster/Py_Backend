@@ -1,2 +1,3 @@
-comando para crear entorno virtual: python -m venv <nombre de carpeta de entorno virtual>
-comando para correr entorno virtual: .\venv\Scripts\Activate.ps1
+crear entorno virtual: 		python -m venv <nombre de carpeta de entorno virtual>
+correr entorno virtual: 	.\venv\Scripts\Activate.ps1
+Ejecutar servidor uvircorn:	uvicorn <nobre del archivo>:app --reload
