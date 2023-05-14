@@ -55,7 +55,7 @@ def update_contact(id):
             email = %s,
             phone = %s
         WHERE id = %s
-        """,(fullname, phone, email, id))
+        """,(fullname, email, phone, id))
         mysql.connection.commit()
         flash('Contact Updated Succesfully')
         return redirect(url_for('Index'))
